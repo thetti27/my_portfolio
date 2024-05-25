@@ -1,0 +1,19 @@
+.col-md-4 {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#paragraph-text {
+    max-height: 600px; /* Adjust the height as needed */
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+#paragraph-text.expanded {
+    max-height: none;
+}
+
+#load-more-btn {
+    display: block;
+    margin-top: 10px;
+}
