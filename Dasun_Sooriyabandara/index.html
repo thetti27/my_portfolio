@@ -23,6 +23,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400|Work+Sans:300,400,700" rel="stylesheet">
 
     <!-- CSS -->
+    <link rel="stylesheet" href="css/loadmorebutton.css">
     <link rel="stylesheet" href="css/style.min.css">
     <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -130,7 +131,7 @@
                 <h2 class="section-title">
                     Interests
                 </h2>
-                <p class="section-sub-title">I am interested in folllowing   these domains </p>
+                <p class="section-sub-title">Interested in folllowing domains </p>
             </div>
             <!-- End of Section Title -->
             <div class="row">
@@ -162,7 +163,7 @@
                                     <i class= "lnr lnr-cog fs-40"></i>
                                 </div>
                                 <h4>Quality Assurance</h4>
-                                <p>Currently i am working as a QA Engineer.</p>
+                                <p>Currently i am working as a Asoociate QA Engineer.</p>
                             </div>
                             <div class="shadow rounded feature-item p-4 mb-4" data-aos="fade-up">
                                 <div class="my-4">
@@ -180,7 +181,7 @@
                                     <i class="lnr lnr-magic-wand fs-40"></i>
                                 </div>
                                 <h4>UI/UX</h4>
-                                <p>focuses on creating a positive user experience by making the interface easy to use and visually appealing.</p>
+                                <p>Focuses on creating a positive user experience by making the interface easy to use and visually appealing.</p>
                             </div>
                             <div class="shadow rounded feature-item p-4 mb-4" data-aos="fade-up">
                                 <div class="my-4">
@@ -208,17 +209,31 @@
 
                         <div class="col-md-4 offset-md-2 col-sm-6" data-aos="fade-right">
                             <h4 class="mb-4">I am Dasun Sooriyabandara</h4>
-                            <p>Currently an undergraduate student at Uva Wellassa University of Sri Lanka, pursuing a degree in Industrial Information Technology. I completed my schooling at Maliyadeva College Kurunegala.
-                                <br><br>Apart from academics, I have a keen interest in sports and extracurricular activities. At Uva Wellassa University, I have had the privilege of being the captain of the carrom team,
-                                 where I have achieved numerous accomplishments<br><br>While my career initially began as a Quality Assurance Engineer, my passion lies in reaching the highest echelons of the industry. I am particularly drawn to the fields of UI/UX, as I thoroughly enjoy using my block pen for drawing and merging my artistic expressions with my thoughts.
-                                  Writing down my thoughts is another creative outlet that I find fulfilling.<br><br>In my leisure time, I take pleasure in indulging in vintage items, films, songs, and literature. I have a particular affinity for mysteries and vehicles, which adds excitement and intrigue to my hobbies and interests.<br> <br>
-                                  Overall, my journey as a student and my diverse range of interests have shaped me into an individual who is driven, creative, and motivated to excel in the field of Industrial Information Technology and the beyond of this as an artistic man.
+                            <p  id="paragraph-text">
+                                As a graduate from Uva Wellassa University of Sri Lanka with a degree in Industrial Information Technology, I have cultivated a diverse range of interests and experiences that define who I am. My academic journey, leadership roles, and creative passions all contribute to my drive to excel in the industry.
+                                <br><br>
+                                My academic journey began at Maliyadeva College Kurunegala, where I developed a strong foundation in my studies. I furthered my education at Uva Wellassa University, focusing on Industrial Information Technology. My dedication to academics is reflected in my commitment to understanding the complexities of technology and its applications in the industrial sector.
+                                <br><br>
+                                Currently, I am working as an Associate Quality Assurance Engineer, where I am passionate about finding new things and exploring automation testing. This role has provided me with valuable insights into maintaining high standards in technology projects and has fueled my enthusiasm for innovation and efficiency. Additionally, my passion aligns with UI/UX design. 
+                                I am drawn to this field because it allows me to merge my current work and technical knowledge with my creative talents. Using my block pen for drawing, I enjoy expressing my artistic visions and integrating them into user-centric designs. Writing also provides me with a platform to articulate my thoughts and ideas clearly.
+                                <br><br>
+                                Beyond academics and professional work, I have embraced leadership roles and extracurricular activities that have enriched my experiences. As the captain of the carrom team at Uva Wellassa University, I led my team to numerous victories and honed my skills in strategy and teamwork. This role taught me the importance of perseverance, collaboration, and leading by example.
+                                <br><br>
+                                Creativity is a significant aspect of my life. I find joy in drawing and writing, both of which serve as outlets for my artistic expression. These hobbies not only enhance my creative thinking but also complement my career aspirations in UI/UX design by allowing me to visualize and communicate innovative solutions effectively.
+                                <br><br>
+                                In my leisure time, I indulge in vintage items, films, songs, and literature. I have a particular affinity for mysteries and vehicles, which adds excitement and intrigue to my hobbies. These interests not only provide relaxation but also inspire me to think critically and explore new perspectives.
+                                <br><br>
+                                Overall, my journey as a graduate and my diverse range of interests have shaped me into an individual who is driven, creative, and motivated to excel in the field of Industrial Information Technology. My academic background, professional experience, leadership roles, and creative pursuits all contribute to my aspiration to reach the highest echelons of the industry and beyond.
+
                             </p>
-                            <a href="about.html"><button type="button" class="btn btn-outline-primary">MORE</button></a>
+
+                            <button id="load-more-btn" type="button" class="btn btn-outline-primary">SHOW MORE</button>
+                            <!-- <a href="about.html"><button type="button" class="btn btn-outline-primary">MORE</button></a> -->
+                            
                         </div><!--/ .col-md-4.col-md-offset-2.col-sm-6 -->
 
                         <div class="col-md-4 offset-md-right-2 col-sm-6" data-aos="flip-right">
-                            <img class="my-10" src="img/dasun.jpg" alt="">
+                            <img class="my-10" src="img/dasun1.jpg" "alt="">
                         </div><!--/ .col-md-4.col-md-offset-right-2.col-sm-6 -->
 
                     </div><!--/ .featurettes-item -->
@@ -234,7 +249,7 @@
 <!-- 	 -->
 
 <!-- Testimonial Section-->
-<section id="testimonial" class="section-padding bg-fixed bg-white overlay" style="background-image: url(img/bg-white.jpg);">
+<!-- <section id="testimonial" class="section-padding bg-fixed bg-white overlay" style="background-image: url(img/bg-white.jpg);">
     <div class="container">
         <div class="section-content" data-aos="fade-up">
             <div class="heading-section text-center">
@@ -242,9 +257,9 @@
                     User Testimonials
                 </h2>
             </div>
-            <div class="row">
+            <div class="row"> -->
                 <!-- Testimonial -->
-                <div class="testi-content testi-carousel owl-carousel">
+                <!-- <div class="testi-content testi-carousel owl-carousel">
                     <div class="testi-item text-center">
                         <i class="testi-icon fa fa-3x fa-quote-left"></i>
                         <h4 class="testi-text"><b>ROXY</b> is best theme i used so far.<br> It’s ideal for guys without coding knowledge like me!</h4>
@@ -285,12 +300,12 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <!-- End of Testimonial -->
-            </div>
+            <!-- </div>
         </div>
     </div>
-</section>
+</section> -->
 <!-- End of Testimonial Section-->	<!-- Portfolio Section -->
 <section id="portfolio" class="bg-white">
     <div class="container">
@@ -458,7 +473,7 @@
                 <div class="col-md-12">
                     <!-- Section Title -->
                     <div class="title-wrap mb-5">
-                        <h2>Lets <span> have a </span> talke </h2>
+                        <h2>Lets <span> have a </span> talk </h2>
                     </div>
                     <!-- End of Section Title -->
                 </div>
@@ -506,8 +521,98 @@
             </div>
         </div>
 </section>
-<!-- End of Client Section -->	<!-- Reservation Section -->
-<section id="reservation" class="bg-white section-content">
+<!-- End of Client Section -->	
+
+
+<!-- Testimonial Section-->
+<section id="testimonial" class="section-padding bg-fixed bg-white overlay" style="background-image: url(img/bg-white.jpg);">
+    <div class="container">
+        <div class="section-content" data-aos="fade-up">
+            <div class="heading-section text-center">
+                <h2>
+                    Explore Medium articles
+                </h2>
+                <p>Pieces of content published on the Medium <br>offering a diverse range of insights, stories, and expertise</p>
+            </div>
+            <div class="row"> 
+                <!-- Testimonial -->
+                 <div class="testi-content testi-carousel owl-carousel">
+                    <div class="testi-item text-center">
+                        <i class="testi-icon fa fa-3x fa-quote-left"></i>
+                        <h4 class="testi-text">The Bug Life Cycle <br> <b>Foundation for Software Quality</b> </h4>
+                        <div class="testi-meta-inner d-flex justify-content-center align-items-center">
+                            <div class="testi-img mr-2">
+                                <!-- <img src="img/testi-1.jpg" alt=""> -->
+                            </div>
+                            <div class="testi-details">
+                                <p class="testi-author mb-0 font-weight-bolder"><a href="https://medium.com/@dasunsooriyabandara/the-bug-life-cycle-a-foundation-for-software-quality-36e318219704">The bug life cycle, a process that a bug goes through from being reported to being closed or rejected is an indispensable aspect of…
+                                    </a><br>3 min read
+                                    |
+                                    Nov 8, 2023</p>
+                                <!-- <p class="testi-desc mb-0">Former CEO of Apple -->
+                                </p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="testi-item text-center">
+                        <i class="testi-icon fa fa-3x fa-quote-left"></i>
+                        <h4 class="testi-text">The Significance of a QA Engineer <br><b>in Software Development</b></h4>
+                        <div class="testi-meta-inner d-flex justify-content-center align-items-center">
+                            <div class="testi-img mr-2">
+                                <!-- <img src="img/testi-2.jpg" alt=""> -->
+                            </div>
+                            <div class="testi-details">
+                                <p class="testi-author mb-0 font-weight-bolder"><a href="https://medium.com/@dasunsooriyabandara/the-significance-of-a-qa-engineer-in-software-development-0d8ad7ec5080?source=user_profile---------2----------------------------"> The role of a QA engineer extends far beyond the mere task of discovering and addressing software bugs. It is a multifaceted and…
+                                    </a><br>3 min read
+                                    |
+                                    Nov 8, 2023</p>
+                                <!-- <p class="testi-desc mb-0">American animation film producer & entrepreneur</p> -->
+                            </div>
+                        </div>
+                    </div>
+                     <div class="testi-item text-center">
+                        <i class="testi-icon fa fa-3x fa-quote-left"></i>
+                        <h4 class="testi-text">Agile Testing<br> <b>Navigating the Dynamics of Agile Software Development</b></h4>
+                        <div class="testi-meta-inner d-flex justify-content-center align-items-center">
+                            <div class="testi-img mr-2">
+                                <!-- <img src="img/testi-3.jpg" alt=""> -->
+                            </div>
+                            <div class="testi-details">
+                                <p class="testi-author mb-0 font-weight-bolder"><a href="https://medium.com/@dasunsooriyabandara/agile-testing-navigating-the-dynamics-of-agile-software-development-900cec930060">In the ever-evolving landscape of software development, agility has become a cornerstone for success. Agile methodologies prioritize…
+                                </a><br>3 min read |
+                                    Dec 28, 2023</p>
+                                <!-- <p class="testi-desc mb-0">35th U.S. President</p> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testi-item text-center">
+                        <i class="testi-icon fa fa-3x fa-quote-left"></i>
+                        <h4 class="testi-text">Mastering Selenium WebDriver Waits<br> <b>A Comprehensive Guide</b></h4>
+                        <div class="testi-meta-inner d-flex justify-content-center align-items-center">
+                            <div class="testi-img mr-2">
+                                <!-- <img src="img/testi-3.jpg" alt=""> -->
+                            </div>
+                            <div class="testi-details">
+                                <p class="testi-author mb-0 font-weight-bolder"><a href="https://medium.com/@dasunsooriyabandara/mastering-selenium-webdriver-waits-a-comprehensive-guide-9816b2b3a88c"> In the realm of automated testing with Selenium WebDriver, effective synchronization is paramount to ensure the reliability and stability…
+                                    </a><br>3 min read
+                                    |
+                                    Apr 25, 2024</p>
+                                <!-- <p class="testi-desc mb-0">35th U.S. President</p> -->
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <!-- End of Testimonial -->
+            </div>
+        </div>
+    </div>
+</section> 
+
+
+
+<!-- Reservation Section -->
+<!-- <section id="reservation" class="bg-white section-content">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-5 offset-lg-1 mb-5 mb-lg-0" data-aos="fade-right">
@@ -570,8 +675,13 @@
         </div>
         
     </div>
-</section>
-<!-- End of Reservation Section -->	<!-- Features Section-->
+</section> -->
+<!-- End of Reservation Section -->	
+
+
+
+
+<!-- Features Section-->
 <section id="cta" class="bg-fixed overlay" style="background-image: url(img/bg.jpg);">
     <div class="container">
         <div class="section-content" data-aos="fade-up">
@@ -593,7 +703,10 @@
     <div class="inner container">
          <div class="row">
          	<div class="col-lg-4 col-md-12 d-flex align-items-center">
-         		
+                <a href="#" class="btn btn-link p-0">
+                    <span>Go up</span>
+                    <span class="lnr lnr-arrow-up"></span>
+                </a>
          	</div>
          	<div class="col-lg-4 col-md-12 d-flex align-items-center">
          		<p class="mx-auto text-center mb-0">&copy; 2023 Dasun_Sooriyabandara <a>dasunsooriyabandara@gmail.com</a></p>
@@ -613,16 +726,22 @@
 	                <a class="nav-link" href="https://www.linkedin.com/in/dasun-sooriyabandara-97a389193/"alt="Dasun_Sooriyabandara">
 	                	<i class="fab fa-linkedin"></i>
 	                </a>
-	                <a class="nav-link" href="https://www.youtube.com/@dayoneclips1915" alt="Dasun_Sooriyabandara">
+	                <!-- <a class="nav-link" href="https://www.youtube.com/@dayoneclips1915" alt="Dasun_Sooriyabandara">
 	                	<i class="fab fa-youtube"></i>
                         
-	                </a>
+	                </a> -->
                     <a class="nav-link" href="https://www.behance.net/dasunsooriya" alt="Dasun_Sooriyabandara">
                         <i class="fab fa-behance"></i>
 	                </a>
                     <a class="nav-link" href="https://github.com/DasunSooriyabandara" alt="Dasun_Sooriyabandara">
                         <i class="fab fa-github"></i>
 	                </a>
+                    
+                    <a class="nav-link" href="https://medium.com/@dasunsooriyabandara" alt="Dasun_Sooriyabandara">
+                        <i class="fab fa-medium"></i>
+                    </a>
+
+                    
 	            </nav>
             </div>
             
@@ -630,7 +749,8 @@
     </div>
 </footer>	<!-- External JS -->
 	<!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script> -->
-	<script src="js/jquery.js"></script>
+	<script src="js/loadmorebutton.js"></script>
+    <script src="js/jquery.js"></script>
     <script src="vendor/bootstrap/popper.min.js"></script>
 	<script src="vendor/bootstrap/bootstrap.min.js"></script>
 	<script src="vendor/select2/select2.min.js "></script>
